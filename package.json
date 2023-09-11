@@ -1,0 +1,15 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "A simple Hello World website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build-css": "tailwindcss build src/tailwind.css -o public/styles.css"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "tailwindcss": "^2.2.16",
+    "axios": "^0.21.1"
+  }
+}
